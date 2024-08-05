@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-weather-app
+    ports:
+      - '3000:3000'
+    stdin_open: true

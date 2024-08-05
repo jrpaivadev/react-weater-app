@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background: #279af2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
